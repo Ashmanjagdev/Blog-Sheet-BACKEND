@@ -1,0 +1,96 @@
+html {
+  min-height: 100%;
+  position: relative;
+  background-color: black;
+  overflow-x: hidden;
+}
+h2{
+  padding-top:15px;
+  padding-left:15px;
+  padding-right:15px;
+}
+p{
+  padding-top: 10px;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.fs-4{
+  color:white;
+}
+.wholebody{
+  background-color: black;
+  color:white;
+}
+.nav-item .nav-link{
+  color:white;
+}
+.foot{
+    position: absolute;
+  	bottom: 0;
+  	width: 100%;
+    margin-top: 200px;
+}
+.compose{
+  margin-left:13%;
+}
+.heading{
+  width:65%;
+   margin: 10px;
+   height: 40px;
+}
+.blog{
+width:65%;
+height: 150px;
+ margin: 10px;
+ text-align: left;
+ vertical-align: top;
+}
+.items{
+  position:relative;
+  left: 17%;
+  width:65%;
+  border: 2px solid;
+  margin-bottom: 10px;
+}
+.inputss{
+  position: relative;
+  left: 17%;
+}
+button{
+  background-color: lightblue;
+  position: relative;
+  left:10px;
+  height: 40px;
+}
+
+.task{
+  margin-left: 13%;
+}
+.details{
+  text-align: center;
+  color:white;
+}
+.time{
+  text-align: right;
+}
+.nav-item:hover{
+  background-color:#00FA9A;
+  border-radius: 10px;
+}
+.nav-link:hover{
+  background-color:#00FA9A;
+  border-radius: 10px;
+}
+.addbutton{
+  background-color: #6A5ACD;
+  color:white;
+  border-radius: 10px;
+}
+button:hover{
+  background-color:#00FA9A;
+  border-radius: 10px;
+}
+.cross{
+  display: flex;
+}

@@ -1,0 +1,21 @@
+<%- include("header") -%>
+<h1 class="task">Home</h1>
+ <br>
+
+<%  listItems.forEach((item) => { %>
+   <div class="items">
+     <h2><%= item.heading %></h2>
+  <p><%= item.content %></p>
+  <form action="/delete" method="post">
+    <button name="delete" value="<%= item.id %>" onclick="this.form.submit()" class="cross">Delete Blog</button>
+  </form>
+  <b><p class="time"><%= item.date %></p></b>
+  </div>
+<%  }); %>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<%- include("footer") -%>

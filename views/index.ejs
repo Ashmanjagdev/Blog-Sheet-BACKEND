@@ -1,0 +1,18 @@
+<%- include("header") -%>
+<h1 class="task">Home</h1>
+ <br>
+
+<%  listItems.forEach((item) => { %>
+   <div class="items">
+     <h2><%= item.heading %></h2>
+  <p><%= item.content %></p>
+  <b><p class="time"><%= item.date %></p></b>
+  </div>
+<%  }); %>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<%- include("footer") -%>
