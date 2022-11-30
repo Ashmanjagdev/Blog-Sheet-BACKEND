@@ -1,8 +1,14 @@
 html {
   min-height: 100%;
   position: relative;
-  background-color: black;
   overflow-x: hidden;
+}
+body {
+  background-image: url('image3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
 }
 h2{
   padding-top:15px;
@@ -19,7 +25,6 @@ p{
   color:white;
 }
 .wholebody{
-  background-color: black;
   color:white;
 }
 .nav-item .nav-link{
